@@ -45,6 +45,7 @@ settings - Settings for your relationship
  - boyfriend - Is the AI your boyfriend? (Only one of girlfriend/boyfriend must be true)
  - anime - Act like an anime character and have a Japanese name?
  - gay - Whether this relationship is gay or not. (EG. If gay = True and girlfriend = True, AI assumes you're a girl and the AI is your girlfriend. Or, if gay = True and boyfriend = True, AI assumes you're a boy and the AI is your boyfriend.)
+
 apikey - Your OpenAI API Key. Obtainable at https://platform.openai.com/account/api-keys
 typing - Whether or not to use a typing effect.
 debug - Debug mode? This gets messy fast, and should not be used normally. (DEBUG messages are not saved in save files.)
