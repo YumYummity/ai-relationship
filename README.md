@@ -16,6 +16,7 @@ This project uses OpenAI's API.
 Using ChatGPT 3.5 Turbo.
 
 You can get an API key here: https://platform.openai.com/account/api-keys
+
 !! API KEYS ARE PAID, AND WILL NOT WORK WITHOUT VALID BILLING !!
 
 ### Cost Estimates
