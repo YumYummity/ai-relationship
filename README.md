@@ -40,6 +40,7 @@ debug = False
 ```
 
 username - The name you're using to talk to the AI. (EG. Your username is "John". The AI will talk to you as John.)
+
 settings - Settings for your relationship
  - girlfriend - Is the AI your girlfriend? (Only one of girlfriend/boyfriend must be true)
  - boyfriend - Is the AI your boyfriend? (Only one of girlfriend/boyfriend must be true)
@@ -47,7 +48,9 @@ settings - Settings for your relationship
  - gay - Whether this relationship is gay or not. (EG. If gay = True and girlfriend = True, AI assumes you're a girl and the AI is your girlfriend. Or, if gay = True and boyfriend = True, AI assumes you're a boy and the AI is your boyfriend.)
 
 apikey - Your OpenAI API Key. Obtainable at https://platform.openai.com/account/api-keys
+
 typing - Whether or not to use a typing effect.
+
 debug - Debug mode? This gets messy fast, and should not be used normally. (DEBUG messages are not saved in save files.)
 
 ### Setting a Custom AI Name
@@ -56,6 +59,7 @@ You can set a custom AI name for your relationship! Simply find the line comment
 ai_name = None # AI CUSTOM NAME eg. "Amber"
 ```
 Simply set `ai_name = "Name"` to set a custom name.
+
 Set `ai_name = None` for a random name.
 
 ### Formatting Settings
@@ -68,9 +72,13 @@ system_format = f"{Style.BRIGHT}{Fore.BLUE}"
 debug_format = f"{Style.BRIGHT}{Fore.YELLOW}[DEBUG]{resetall} {Style.DIM}{Fore.YELLOW}>>{resetall}{Style.BRIGHT} "
 ```
 resetall - You shouldn't change this.
+
 ai_format - Format for AI prefix. It is used like `{ai_format}AI's NAME{resetall} > {AI MESSAGE}`
+
 user_format - Format for USER prefix. It is used like `{user_format}USERNAME{resetall} > {INPUTTED MESSAGE}`
+
 system_format - Format for System command responses. It is used like `{system_format}>>>{resetall} SYSTEM MESSAGE/RESPONSE`
+
 debug_format - Format for DEBUG messages. It is used like `{debug_format}DEBUG MESSAGE`
 
 # Setup
